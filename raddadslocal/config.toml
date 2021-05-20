@@ -5,22 +5,22 @@ title = "Rad Dads Landscape Design"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "Home"
+name = ""
 pre = ""
 url = "/"
 weight = 1
 [[menu.main]]
-name = "About"
+name = ""
 pre = "#"
 url = "mission"
 weight = 2
 [[menu.main]]
-name = "Products"
+name = ""
 pre = "#"
 url = "products"
 weight = 3
 [[menu.main]]
-name = "Career"
+name = ""
 pre = ""
 url = "career"
 weight = 4
