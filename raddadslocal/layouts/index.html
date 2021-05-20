@@ -118,26 +118,8 @@
           <span>{{.section | markdownify }}</span>
         </div>
       </div>
-      <div class="col-md-8">
-        <div class="text-block">
-          <h2><span class="rev">{{ .title | markdownify }}</span>
-          </h2>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid p-0">
-    <div class="row m-0">
-      <div class="col-lg-10 ml-auto p-0">
-        <div class="product-slider-wrapper">
-          {{ range .product_item }}
-          <div class="product-item">
-            <img src="{{ .image | absURL }}" alt="product-image">
-            <div class="overlay">
-              <div class="content">
-                <h5>{{ .title | markdownify }}</h5>
-                <p>{{ .content | markdownify }}</p>
+      <a href="{{ .project_url | absURL }}"></a>
+      markdownify }}</p>
               </div>
             </div>
           </div>
