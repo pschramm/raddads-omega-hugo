@@ -6,8 +6,7 @@ banner:
   image : "images/hero-image/rad-dad-slider.jpg"
   button:
     enable : true
-    label : "Check us Out"
-    link : "#products"
+    label : "512-731-2397"
 
 #################### Mission #####################
 mission:
