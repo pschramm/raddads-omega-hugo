@@ -70,6 +70,6 @@ contact:
 ################### call to action #################
 call_to_action:
   enable : true
-  title : "Join the Rad Dad family. <br>Click and we'll be in touch to help you out."
-  button_label : "Get Your Yard Fixed Now"
+  title : "Join the Rad Dad family. <br>Call or Text and we'll be in touch to help you out."
+  button_label : "512-731-2397"
   button_link : "#contact"
