@@ -1,6 +1,6 @@
 [build]
-  publish = "raddadspublic/public"
-  command = "cd raddadspublic && hugo --gc --themesDir ../.."
+  publish = "raddadslocal/public"
+  command = "cd raddadslocal && hugo --gc --themesDir ../.."
   
 [build.environment]
   HUGO_VERSION = "0.60.1"
