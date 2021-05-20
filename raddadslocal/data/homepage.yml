@@ -1,0 +1,76 @@
+#################### Banner #####################
+banner:
+  enable : true
+  title : "Rad Dads Landscaping"
+  content : "WE CREATE RESPONSIBLE LANDSCAPES FOR A SUSTAINABLE FUTURE."
+  image : "images/hero-image/rad-dad-slider.jpg"
+  button:
+    enable : true
+    label : "Check us Out"
+    link : "#products"
+
+#################### Mission #####################
+mission:
+  enable : true
+  title : "Landscape and Design"
+  section : "Jobs done Right"
+  content : "We will help you create a space for good times with friends and family and create lifelong memories. Sit back and enjoy your new landscape designed and built by Rad Dads"
+  video_thumb: "images/screen.png"
+  video_id: "m4xtGon8cp8"
+
+
+#################### Vission #####################
+vision:
+  enable : true
+  section : "VISION"
+  vision_item:
+  - title : "Design"
+    image : "images/vision/vision-01.jpg"
+    content : "Creating cohesive, sustainable landscape design customized to your property and goals."
+    
+  - title : "Install"
+    image : "images/vision/vision-02.jpg"
+    content : "Bringing your landscape design to life, working with trusted professionals and the most sustainable practices and materials."
+    
+  - title : "Mantain"
+    image : "images/vision/vision-03.jpg"
+    content : "Keeping your landscape thriving, customized from a list of a la carte services to fit your specific landscape, lifestyle, and needs."
+
+#################### product ####################
+product:
+  enable : true
+  section : "Projects"
+  title : "Some Of Our Recent Work"
+  content : "We are a full-service landscape design and build firm in Austin, Texas. We excel at transforming outdoor residential spaces throughout the greater Austin area into striking spaces. Our designers work closely with each client to improve the aesthetic appeal and raise resale value for homes. We’ll communicate effectively and promptly as we complete your project while drawing inspiration from both traditional and modern influences."
+  product_item:
+  - title : "Landscaping"
+    image : "images/product/product-01.jpg"
+    content : "Need a low-maintenance landscape for your growing family, while keeping the yard kid-friendly?"
+    project_url : "#"
+    
+  - title : "Design"
+    image : "images/product/product-02.jpg"
+    content : "Remodeling your house and need to breathe new life into your landscape too?"
+    project_url : "#"
+    
+  - title : "Austin"
+    image : "images/product/product-03.jpg"
+    content : "We use only sustainable, responsible, and environmentally friendly practices, and our Maintenance Programs are customized from a list of a la carte services to fit your specific landscape, lifestyle, and needs."
+    project_url : "#"
+
+
+###################### Contact ####################
+contact:
+  enable : true
+  section : "CONTACT US"
+  title : "Get in touch with Us"
+  image : "images/map-bg.jpg"
+  content : "It’s hard to believe, but nice weather is just around the corner! To celebrate this beautiful time of year, Rad Dads are kicking off some specials!" 
+
+  
+################### call to action #################
+call_to_action:
+  enable : true
+  title : "Join the Rad Dad family. <br>Click and we'll be in touch to help you out."
+  button_label : "Get Your Yard Fixed Now"
+  button_link : "#contact"
