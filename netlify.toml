@@ -1,11 +1,6 @@
 [build]
-<<<<<<< HEAD
   publish = "raddadspublic/public"
   command = "cd raddadspublic && hugo --gc --themesDir ../.."
-=======
-  publish = "raddadslocal/public"
-  command = "cd raddadslocal && hugo --gc --themesDir ../.."
->>>>>>> feb91eae65f5f9094106fc43af71845f5e549bc3
   
 [build.environment]
   HUGO_VERSION = "0.60.1"
