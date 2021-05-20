@@ -25,7 +25,7 @@ pre = ""
 url = "career"
 weight = 4
 [[menu.main]]
-name = "Hit us Up"
+name = ""
 pre = "#"
 url = "contact"
 weight = 5

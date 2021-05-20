@@ -24,19 +24,15 @@ AUTHOR WEBSITE: https://themefisher.com
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-
-  {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
-  {{ if .IsTranslated }}
-  {{ range .Page.AllTranslations }}
-  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-  {{ end }}
-  {{ end }}
-
-  {{ with .Params.Image }}
-  <git property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
-
+ 
+  <meta name="description" content="Call us for Landscape &#43; Design Services. We can do it All." />
+  <meta property="og:title" content="Rad Dads Landscapes - Austin  Landscape and Design services" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.raddadslandscaping.com" />
+  <meta property="og:image" content="https://raddads.netlify.app/images/hero-image/rad-dad-slider.jpg" />
+  <meta property="og:description" content="Call us for Landscape and Design Servies along with Mowing, Blower Cleanup, Power Washing, Junk Cleanups, Fencing Repairs, Hauls, Acres, etc!" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@raddadslandscaping" />
+  <meta name="twitter:creator" content="@raddadslandscaping" />
+  
 </head>
