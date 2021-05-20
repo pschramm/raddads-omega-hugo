@@ -34,7 +34,7 @@ author = "pop2"
 contact_info = "Call or Text Us : 512-731-2397"
 description = "Rad Dads Landscaping"
 logo = "images/raddads.png"
-logo_width = "120px"
+logo_width = "480px"
 preloader = true
 [params.cookies]
 enable = true
