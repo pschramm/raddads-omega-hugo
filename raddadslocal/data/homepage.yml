@@ -1,7 +1,7 @@
 #################### Banner #####################
 banner:
   enable : true
-  title : "Rad Dads Landscaping"
+  title : "Rad Dads Landscape and Design"
   content : "WE CREATE RESPONSIBLE LANDSCAPES FOR A SUSTAINABLE FUTURE."
   image : "images/hero-image/rad-dad-slider.jpg"
   button:
